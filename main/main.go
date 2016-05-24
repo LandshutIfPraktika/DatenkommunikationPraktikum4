@@ -30,5 +30,5 @@ func printRoutingTables(count int, net map[rune]routing.Router) {
 	for i := 'A'; i <= 'M'; i++ {
 		fmt.Println(net[i])
 	}
-	fmt.Println("\n")
+	fmt.Printf("\n\n")
 }
